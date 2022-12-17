@@ -30,7 +30,6 @@ body {
 }
 
 .header ul li{
-    margin-left: 1.5rem;
     font-size: 1rem;
 }
 
@@ -68,8 +67,5 @@ button {
     padding: .25rem 1.5rem;
 }
 .section-one img {
-    width: 24rem;
-    height: 12rem;
     border-radius: .5rem;
-    object-fit: cover;
 }
