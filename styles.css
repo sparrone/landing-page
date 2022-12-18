@@ -6,12 +6,18 @@ body {
 }
 
 .header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.content-wrapper {
+    max-width: 50rem;
+    flex: 1;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: #1F2937;
-    padding: .5rem 8rem;
 }
 
 .logo {
@@ -31,6 +37,7 @@ body {
 
 .header ul li{
     font-size: 1rem;
+    margin-right: 1rem;
 }
 
 .header a {
@@ -39,12 +46,9 @@ body {
 }
 
 .section-one {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
     background-color: #1F2937;
-    padding: 4rem 8rem;
+    display: flex;
+    justify-content: center;
 }
 .left {
     width: 24rem;
@@ -68,4 +72,6 @@ button {
 }
 .section-one img {
     border-radius: .5rem;
+    max-width: 24rem;
+    height: auto;
 }
