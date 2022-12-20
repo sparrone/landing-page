@@ -16,7 +16,7 @@ body {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -51,12 +51,13 @@ body {
     justify-content: center;
 }
 .left {
-    width: 24rem;
+    max-width: 24em;
+    flex: 1;
 }
 
 .left h3 {
     color: #F9FAF8;
-    font-size: 3rem;
+    font-size: 2.5em;
     margin: 0;
 }
 
@@ -68,10 +69,11 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: .25rem;
-    padding: .25rem 1.5rem;
+    padding: .25rem 1rem;
 }
 .section-one img {
     border-radius: .5rem;
-    max-width: 24rem;
+    flex: 1;
+    max-width: 24em;
     height: auto;
 }
