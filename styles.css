@@ -34,6 +34,13 @@ body > div {
     align-items: center;
 }
 
+.logo a {
+    font-size: 1.5rem;
+    color: #F9FAF8;
+    text-decoration: none;
+    cursor: text;
+}
+
 .header ul {
     width: 8rem;
     list-style: none;
@@ -42,7 +49,7 @@ body > div {
     display: flex;
 }
 
-.header a {
+.header li a {
     font-size: 1rem;
     color: #E5E7EB;
     text-decoration: none;
